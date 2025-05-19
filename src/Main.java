@@ -63,15 +63,15 @@ class Tasks {
     }
 
     public static void main(String[] args) {
-        System.out.println(evenOrOdd(3)); // Odd
-        System.out.println(multiplyByCondition(4)); // 16
-        System.out.println(toNegative(5)); // -5
-        System.out.println(getCentury(2023)); // 21
-        System.out.println(findSmallest(new int[]{34, 15, 88, 2})); // 2
-        System.out.println(twoLargest(new int[]{1, 5, 87, 45, 8, 8})); // [45, 87]
-        System.out.println(Arrays.toString(countPosSumNeg(new int[]{1,2,3,4,5,6,7,8,9,10,-11,-12,-13,-14,-15}))); // [10, -65]
-        System.out.println(countVowels("Education")); // 5
-        System.out.println(getMiddle("student")); // d
-        System.out.println(Arrays.deepToString(multiplicationTable(3))); // [[1, 2, 3], [2, 4, 6], [3, 6, 9]]
+        System.out.println(evenOrOdd(3));
+        System.out.println(multiplyByCondition(4));
+        System.out.println(toNegative(5));
+        System.out.println(getCentury(2023));
+        System.out.println(findSmallest(new int[]{34, 15, 88, 2}));
+        System.out.println(twoLargest(new int[]{1, 5, 87, 45, 8, 8}));
+        System.out.println(Arrays.toString(countPosSumNeg(new int[]{1,2,3,4,5,6,7,8,9,10,-11,-12,-13,-14,-15})));
+        System.out.println(countVowels("Education"));
+        System.out.println(getMiddle("student"));
+        System.out.println(Arrays.deepToString(multiplicationTable(3)));
     }
 }
